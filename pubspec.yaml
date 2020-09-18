@@ -1,6 +1,7 @@
 name: tr150
-description: Plugin for hardware functions of TR150 device.
-version: 1.0.0
+description: Plugin for hardware functions of TR150 device. It include functions for printer,
+  scanner, EMV, etc. It only supports Android platform.
+version: 1.0.1
 repository: https://github.com/grinder15/tr150.git
 
 environment:
@@ -29,8 +30,6 @@ flutter:
     platforms:
       android:
         package: com.grinderapps.www.tr150
-        pluginClass: Tr150Plugin
-      ios:
         pluginClass: Tr150Plugin
 
   # To add assets to your plugin package, add an assets section, like this:
